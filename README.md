@@ -18,3 +18,10 @@
 ```bash
 pip install -r requirements.txt
 python inference.py --weights model/best.pt --source demo/in_001.jpg --save-result
+
+## What's in Notes & Limitations
+
+- Trained on internal retail images; performance may drop on totally different stores/cameras.
+- To reach production-grade recall for rack, add 300–500 more labeled examples for that class.
+
+Contact: kalanagayan@protonmail.com
