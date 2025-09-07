@@ -18,6 +18,7 @@
 ```bash
 pip install -r requirements.txt
 python inference.py --weights model/best.pt --source demo/in_001.jpg --save-result
+```
 
 ## What's in Notes & Limitations
 
