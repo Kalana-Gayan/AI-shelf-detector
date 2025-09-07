@@ -17,7 +17,8 @@
 ## Quick test (local)
 ```bash
 pip install -r requirements.txt
-python inference.py --weights model/best.pt --source demo/in_001.jpg --save-result
+python inference_save.py --weights model/best.pt --source image/folder --save-dir outputs --thickness 3 --font-scale 1.1 --label-padding 6
+
 ```
 
 ## What's in Notes & Limitations
